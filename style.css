@@ -1,0 +1,101 @@
+*{
+    
+    margin:0;
+    padding:0;
+}
+
+.logo{
+    width:20% ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: solid white;
+    border-radius: 50%;
+}
+.navbar{
+    display:flex;
+    background-color: rgb(241, 164, 241);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.navlist{
+    
+    width: 50%;    
+    display: flex;
+}
+
+.navlist li {
+list-style: none;
+padding: 20px 30px;
+ 
+}
+
+.navlist li a {
+text-decoration: none;
+ color:rgb(10, 10, 10);
+}
+.navlist li a:hover{ 
+    color:rgb(69, 130, 228);
+}
+   
+    
+.rightnav{
+    padding: 0 23px;
+    width: 50%;
+   text-align:right ;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border:2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background:rgba(208, 222, 250, 0.7)url('clg.jpg');
+    background-size:cover ;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height:80%;
+}
+.firsthalf{
+     width:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondhalf{
+   width: 30%;
+
+}
+.secondhalf img{
+    
+    border-radius: 50%;
+    border:solid;
+    border-color: aqua;
+ }
+ .text-big{
+font-size: 41px;
+font-style: italic;
+
+ }
+ .text-big{
+font-size: 18px;
+ }
